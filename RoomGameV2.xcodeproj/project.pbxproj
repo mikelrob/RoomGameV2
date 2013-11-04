@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E4ED1E01826B07300A643B6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E4ED1DF1826B07300A643B6 /* main.cpp */; };
 		3E4ED1E21826B07300A643B6 /* RoomGameV2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3E4ED1E11826B07300A643B6 /* RoomGameV2.1 */; };
+		3E4ED1F31826B09500A643B6 /* Box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E4ED1E81826B09500A643B6 /* Box.cpp */; };
+		3E4ED1F41826B09500A643B6 /* Door.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E4ED1EA1826B09500A643B6 /* Door.cpp */; };
+		3E4ED1F51826B09500A643B6 /* DoorKey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E4ED1EC1826B09500A643B6 /* DoorKey.cpp */; };
+		3E4ED1F61826B09500A643B6 /* GameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E4ED1EE1826B09500A643B6 /* GameObject.cpp */; };
+		3E4ED1F71826B09500A643B6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E4ED1F01826B09500A643B6 /* main.cpp */; };
+		3E4ED1F81826B09500A643B6 /* Television.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E4ED1F11826B09500A643B6 /* Television.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +31,18 @@
 
 /* Begin PBXFileReference section */
 		3E4ED1DC1826B07300A643B6 /* RoomGameV2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RoomGameV2; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E4ED1DF1826B07300A643B6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3E4ED1E11826B07300A643B6 /* RoomGameV2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RoomGameV2.1; sourceTree = "<group>"; };
+		3E4ED1E81826B09500A643B6 /* Box.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Box.cpp; sourceTree = "<group>"; };
+		3E4ED1E91826B09500A643B6 /* Box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
+		3E4ED1EA1826B09500A643B6 /* Door.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Door.cpp; sourceTree = "<group>"; };
+		3E4ED1EB1826B09500A643B6 /* Door.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Door.h; sourceTree = "<group>"; };
+		3E4ED1EC1826B09500A643B6 /* DoorKey.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DoorKey.cpp; sourceTree = "<group>"; };
+		3E4ED1ED1826B09500A643B6 /* DoorKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoorKey.h; sourceTree = "<group>"; };
+		3E4ED1EE1826B09500A643B6 /* GameObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameObject.cpp; sourceTree = "<group>"; };
+		3E4ED1EF1826B09500A643B6 /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
+		3E4ED1F01826B09500A643B6 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3E4ED1F11826B09500A643B6 /* Television.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Television.cpp; sourceTree = "<group>"; };
+		3E4ED1F21826B09500A643B6 /* Television.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Television.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +75,17 @@
 		3E4ED1DE1826B07300A643B6 /* RoomGameV2 */ = {
 			isa = PBXGroup;
 			children = (
-				3E4ED1DF1826B07300A643B6 /* main.cpp */,
+				3E4ED1E81826B09500A643B6 /* Box.cpp */,
+				3E4ED1E91826B09500A643B6 /* Box.h */,
+				3E4ED1EA1826B09500A643B6 /* Door.cpp */,
+				3E4ED1EB1826B09500A643B6 /* Door.h */,
+				3E4ED1EC1826B09500A643B6 /* DoorKey.cpp */,
+				3E4ED1ED1826B09500A643B6 /* DoorKey.h */,
+				3E4ED1EE1826B09500A643B6 /* GameObject.cpp */,
+				3E4ED1EF1826B09500A643B6 /* GameObject.h */,
+				3E4ED1F01826B09500A643B6 /* main.cpp */,
+				3E4ED1F11826B09500A643B6 /* Television.cpp */,
+				3E4ED1F21826B09500A643B6 /* Television.h */,
 				3E4ED1E11826B07300A643B6 /* RoomGameV2.1 */,
 			);
 			path = RoomGameV2;
@@ -117,7 +142,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E4ED1E01826B07300A643B6 /* main.cpp in Sources */,
+				3E4ED1F61826B09500A643B6 /* GameObject.cpp in Sources */,
+				3E4ED1F81826B09500A643B6 /* Television.cpp in Sources */,
+				3E4ED1F31826B09500A643B6 /* Box.cpp in Sources */,
+				3E4ED1F41826B09500A643B6 /* Door.cpp in Sources */,
+				3E4ED1F71826B09500A643B6 /* main.cpp in Sources */,
+				3E4ED1F51826B09500A643B6 /* DoorKey.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
